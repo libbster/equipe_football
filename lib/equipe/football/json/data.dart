@@ -14,10 +14,20 @@ var equipeFootballDataJson = @'''
          "concept":"Equipe",
          "entities":[
             {
-               "nom":"United",
+               "nom":"Manchester United",
                "effectif":"26",
-               "oid":"1349572955121",
+               "oid":"1349574558423",
                "ville":"Manchester",
+               "joueurs":[
+
+               ],
+               "code":null
+            },
+            {
+               "nom":"Chelsea",
+               "effectif":"26",
+               "oid":"1349574558430",
+               "ville":"London",
                "joueurs":[
 
                ],
