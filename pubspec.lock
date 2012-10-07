@@ -1,1 +1,1 @@
-{"packages":{"dartling":{"version":"0.0.4","source":"git","description":{"url":"git://github.com/dzenanr/dartling.git","ref":null,"resolved-ref":"1719a79a05339c451632cb8558c912d636cc4b9d"}},"unittest":{"version":"0.0.0-r.12783","source":"sdk","description":"unittest"}}}
+{"packages":{"dartling":{"version":"0.0.5","source":"git","description":{"url":"git://github.com/dzenanr/dartling.git","ref":null,"resolved-ref":"a6ddccb77fe25415bf70b8717a01b1743e4c9a6c"}},"unittest":{"version":"0.0.0-r.13122","source":"sdk","description":"unittest"}}}

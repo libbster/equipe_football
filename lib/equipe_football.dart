@@ -1,11 +1,12 @@
-
+// lib/equipe_football.dart 
+ 
 /*
 http://opensource.org/licenses/
 
 http://en.wikipedia.org/wiki/BSD_license
 3-clause license ("New BSD License" or "Modified BSD License")
 
-Copyright (c) 2012, Dartling skeleton authors
+Copyright (c) 2012, Dartling project authors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -30,19 +31,28 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
-#library('dartling_skeleton');
-
-#import("package:dartling/dartling.dart");
-
-#source("dartling/skeleton/json/data.dart");
-// do not change model
-#source("dartling/skeleton/json/model.dart");
-
-#source("dartling/skeleton/init.dart");
-
-#source("gen/dartling/skeleton/entries.dart");
-
-// do not change models
-#source("gen/dartling/models.dart");
-#source("gen/dartling/repository.dart");
+ 
+ 
+#library('equipe_football'); 
+ 
+#import("dart:json"); 
+#import("dart:math"); 
+#import("dart:uri"); 
+ 
+#import("package:dartling/dartling.dart"); 
+ 
+#source("equipe/football/json/data.dart"); 
+#source("equipe/football/json/model.dart"); 
+ 
+#source("equipe/football/init.dart"); 
+ 
+#source("equipe/football/equipes.dart"); 
+#source("equipe/football/joueurs.dart"); 
+ 
+#source("gen/equipe/football/entries.dart"); 
+#source("gen/equipe/football/equipes.dart"); 
+#source("gen/equipe/football/joueurs.dart"); 
+ 
+#source("gen/equipe/models.dart"); 
+#source("gen/equipe/repository.dart"); 
+ 

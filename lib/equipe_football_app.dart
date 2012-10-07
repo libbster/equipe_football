@@ -1,11 +1,12 @@
-
+// lib/equipe_football_app.dart 
+ 
 /*
 http://opensource.org/licenses/
 
 http://en.wikipedia.org/wiki/BSD_license
 3-clause license ("New BSD License" or "Modified BSD License")
 
-Copyright (c) 2012, Dartling skeleton authors
+Copyright (c) 2012, Dartling project authors
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -30,16 +31,15 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
-#library('dartling_skeleton_app');
-
-#import("dart:html");
-
-#import("package:dartling/dartling.dart");
-#import("package:dartling/dartling_app.dart");
-
-#import("package:dartling_skeleton/dartling_skeleton.dart");
-
-
-
-
+ 
+ 
+#library('equipe_football_app'); 
+ 
+#import("dart:html"); 
+#import("dart:math"); 
+ 
+#import("package:dartling/dartling.dart"); 
+#import("package:dartling/dartling_app.dart"); 
+ 
+#import("package:equipe_football/equipe_football.dart"); 
+ 
