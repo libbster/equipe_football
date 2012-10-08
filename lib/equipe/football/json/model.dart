@@ -79,7 +79,7 @@ var equipeFootballModelJson = @'''
                "sequence":20,
                "name":"nom",
                "category":"required",
-               "type":"String",
+              "type":"String",
                "init":""
             },
             {
